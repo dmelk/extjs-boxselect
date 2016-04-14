@@ -56,7 +56,7 @@ ul.x-boxselect-list.x-boxselect-singleselect {
 	overflow: hidden;
 	width: 12px;
 	height: 12px;
-	background-image: url("../../../../modera/theme/build/resources/images/tab/tab-default-close.png");
+	background-image: url("/bundles/melkmjrboxselect/images/tab-default-close.png");
 	margin: 0;
 	right: 5px;
 	top: 2px;
