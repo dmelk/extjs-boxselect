@@ -14,6 +14,12 @@
                  class="Melk\MJRBoxSelectBundle\Contributions\JsResourcesProvider">
             <tag name="modera_mjr_integration.js_resources_provider" />
         </service>
+
+        <service id="melk_mjr_box_select.contributions.steroid_class_mappings_provider"
+                 class="Melk\MJRBoxSelectBundle\Contributions\SteroidClassMappingsProvider">
+
+            <tag name="modera_backend_on_steroids.extjs_classes_paths_provider" />
+        </service>
     </services>
 
 </container>
