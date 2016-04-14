@@ -1,0 +1,25 @@
+{
+  "name": "melk/mjr-box-select-bundle",
+  "type": "symfony-bundle",
+  "description": "Provides integration of Ext.ux.form.field.BoxSelect for MJR.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Potienko",
+      "email": "potienko.m@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "modera/mjr-integration-bundle": "~1.0"
+  },
+  "autoload": {
+    "psr-0": { "Melk\\MJRBoxSelectBundle": "" }
+  },
+  "target-dir": "Melk/MJRBoxSelectBundle",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
